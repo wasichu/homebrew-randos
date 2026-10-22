@@ -8,15 +8,15 @@ class Randos < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/wasichu/randos/releases/download/v0.5.1/randos-0.5.1-macos-arm64.tar.gz"
-      sha256 "e628218b4384cc132347c2d1ddccfd14e21c11890dc412f4284fd0241eb1a76f"
+      url "https://github.com/wasichu/randos/releases/download/v0.6.1/randos-0.6.1-macos-arm64.tar.gz"
+      sha256 "d5d9548a1c0cabf94fc3cba042fa49f74119b53bb33407c9e8124b06ff3d55e4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wasichu/randos/releases/download/v0.5.1/randos-0.5.1-linux-x86_64.tar.gz"
-      sha256 "79c061d80dff37dae690f5687f489316217f0d0657059f1e215409cf1194f15f"
+      url "https://github.com/wasichu/randos/releases/download/v0.6.1/randos-0.6.1-linux-x86_64.tar.gz"
+      sha256 "9b4c0f5102a6d54c0e62c9546b256f44ba6285e0889fc35cf14695743e208901"
     end
 
     # What the release links (checked on the CI build, Ubuntu 24.04, so
